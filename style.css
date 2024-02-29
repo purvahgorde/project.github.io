@@ -1,6 +1,9 @@
 .bg-custom {
     background-color:#71d0f8;
     }
+    .navbar-nav a{
+        color: black;
+    }
     
     .nav-link, .navbar-brand {
         color:black;
@@ -17,11 +20,7 @@ display: flex;
 flex-direction: row;
 color:black;
 }
-.imagedata{
-    margin-left: 70px;
-    margin-bottom: 70px;
-    width: 300px;
-}
+
 #about #brandname,#feature #brandname{
 	color:#71d0f8;
 }
@@ -37,18 +36,8 @@ color:black;
     border-radius: 20px;
    
 }
-#img2{
-    width: 300ox;
-    height: 300px;
-    position: relative;
-    z-index: index 100;
-    margin-left: 50px;
 
-}
-#img3{
-    width: 200px;
-    height: 300px;
-}
+
 
 
 .imgd{
