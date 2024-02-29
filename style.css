@@ -38,17 +38,7 @@ color:black;
    
 }
 
-#img2{
-    width: 300px;
-    height: 300px;
-    position: relative;
-    z-index: index 100;
-    margin-left: 50px;
-}
-#img3{
-    width: 200px;
-    height: 300px;
-}
+
 .imgd{
     display: flex;
 }
