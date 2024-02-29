@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css"
+        integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css"
+        integrity="sha512-17EgCFERpgZKcm0j0fEq1YCJuyAWdz9KUtv1EjVuaOz8pDnh/0nZxmU6BBXwaaxqoi9PQXnRWqlcDB027hgv9A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="style.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+
+</head>
+
+<body>
+    <!--start of navigation bar-->
+    <nav class="navbar navbar-expand-lg  bg-custom">
+        <a class="navbar-brand" href="#"><i class="bi bi-airplane-engines"></i>Tour & Travels web</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item ">
+                    <a class="nav-link" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Link</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                        data-toggle="dropdown">
+                        Domestic Destination
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="#">Assam</a>
+                        <a class="dropdown-item" href="#">Gujrat</a>
+                        <a class="dropdown-item" href="#">bangal</a>
+                        <a class="dropdown-item" href="#">rajsthan</a>
+                        <a class="dropdown-item" href="#">maharashtra</a>
+                    </div>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbar-dropdown"
+                        data-toggle="dropdown">International Destination</a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="#">Europ</a>
+                        <a class="dropdown-item" href="#">Bhutan</a>
+                        <a class="dropdown-item" href="#">Nepal</a>
+                        <a class="dropdown-item" href="#">Singapur</a>
+                        <a class="dropdown-item" href="#">Shrilanka</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Packages</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Booking</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Contact Us</a>
+                </li>
+            </ul>
+            <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+            </form>
+        </div>
+    </nav>
+    <!--end of navagation bar-->
+    <!--start of jumbotron-->
+    <div class="jumbotron">
+        <div class="Textdata">
+            <h1 class="display-4">Explore the World with Us</h1>
+            <p class="lead">Traveling – it leaves you speechless, then turns you into a storyteller." </p>
+            <hr class="my-4 bg-dark">
+            <p>Provide beautiful Holiday Packages.</p>
+            <p class="lead">
+                <a class="btn btn-outline-dark btn-md" href="#" role="button">Book Now</a>
+            </p>
+        </div>
+        <div class="imagedata">
+            <img src="images/tour1.png">
+
+        </div>
+    </div>
+
+    <!--end of jumbotron-->
+    <!-- start about Section-->
+    <div class="container" id="about">
+        <h1 class="text-center my-3"> About <span id="brandname"> Tour and Travels</span> </h1>
+        <hr width="200x" class="bg-danger">
+        <div class="row">
+            <div class="col-md-6">
+
+                <img id="img1" src="images/nature.jpg">
+                <div class="imgd">
+                    <img id="img3" src="images/img2.png">
+                    <img id="img2" src="images/pic4.jpg">
+                </div>
+
+            </div>
+            <div class="col-md-6">
+                <p> <i class="bi-house"></i>Welcome to the world of Links</p>
+                <h1>Where we 'Link people all over the world…!</h1>
+                <p> We started our office in the year 1993. "Link India Tours & Travels" is one of the leading travel
+                    agent & tour operators in Kolkata. We undertake individual and group tour packages, School Groups &
+                    Educational Tours, corporate conferences, incentive tours, theme based parties, off site meets and
+                    many more in India. We operate fixed departure tours in summer, Festive & Winter managed & escorted
+                    by experienced personnel...
+
+                    View More </p>
+                <a class="btn btn-outline-dark btn-sm" href="#" role="button">View more <i
+                        class="bi-arrow-right"></i></a>
+            </div>
+        </div>
+    </div>
+    <!--end of about section-->
+    <!--start of gallary-->
+    <div class="xyz">
+    <div class="container" id="gallary" >
+        <h1 class="text-center my-3"> Gallary<span id="brandname"> Tour and Travels</span> </h1>
+        <hr width="200x" class="bg-danger">
+        <div class="Domestic">
+            <h3 class="text-center"><i>Top Domestic Destination</i></h3>
+            <div class="row">
+                <div class="col-md-3">
+                    <img src="images/pic5.jpg" class="img-fluid">
+                </div>
+                <div class="col-md-3">
+                    <img src="images/pic1.jpg" class="img-fluid">
+                </div>
+                <div class="col-md-3">
+                    <img src="images/pic2.jpg" class="img-fluid">
+                </div>
+                <div class="col-md-3">
+                    <img src="images/pic3.jpg" class="img-fluid">
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+    
+    <div class="international">
+        <h3 class="text-center"><i>Top International Destination</i></h3>
+        <div class="row">
+            <div class="col-md-3">
+                <img src="images/a1.jpg" class="img-fluid">
+            </div>
+            <div class="col-md-3">
+                <img src="images/a2.jpg" class="img-fluid">
+            </div>
+            <div class="col-md-3">
+                <img src="images/a3.jpg" class="img-fluid">
+            </div>
+            <div class="col-md-3">
+                <img src="images/a4.jpg" class="img-fluid">
+            </div>
+
+        </div>
+    </div>
+    </div>
+    </div>
+</div>
+
+    <!--end of gallary-->
+    <!--start of features-->
+    <div class="container" id="feature">
+        <h1 class="text-center my-3"> Features <span id="brandname"> Tour and Travels</span> </h1>
+        <hr width="200x" class="bg-danger">
+        <p ><h4 class="text-center" ><i class="bi-house"></i><i>Special features</i></h4></p>
+       <p><h2 class="text-center ">Which We Are Provides</h2></p>
+        <div class="row slider">
+                 
+                     <div class="col-md-3">
+                    <div class="card" style="width: 18rem;">
+                        <div class="card-body">
+                          <h4 class="card-title">Feature 1</h4>
+                         
+                          <p class="card-text"><h5><i class="bi bi-bookmark-star-fill"></i>Coustemized Package Tour</h5></p>
+                          <p class="card-text">We provide world- wide coustemized package tours</p>
+                         
+                        </div>
+                      </div>
+                      </div>
+                      
+                      
+                     <div class="col-md-3">
+                      <div class="card" style="width: 18rem;" >
+                        <div class="card-body">
+                          <h4 class="card-title">Feature 2</h4>
+                          
+                          <p class="card-text"><h5><i class="bi bi-bookmark-star-fill"></i>Hotel Booking car Rental</h5></p>
+                          <p class="card-text">All over India</p>
+                        </div>
+                      </div>
+                      </div>
+                      
+
+                      <div class="col-md-3">
+                      <div class="card" style="width: 18rem;">
+                        <div class="card-body">
+                          <h4 class="card-title">Feature 3</h4>
+                        
+                          <p class="card-text"><h5><i class="bi bi-bookmark-star-fill"></i>Student Group</h5></p>
+                          <p class="card-text">we condut student Groups</p>
+                        </div>
+                      </div>
+                      </div>
+                      
+                      <div class="col-md-3">
+                        <div class="card"  style="width: 18rem;">
+                          <div class="card-body">
+                            <h4 class="card-title">Feature 4</h4>
+                            
+                            <p class="card-text"><h5><i class="bi bi-bookmark-star-fill"></i>Incentive Tour</h5></p>
+                            <p class="card-text">we also provide incentive Tours</p>
+                          </div>
+                        </div>
+                        </div>
+
+                        <div class="col-md-3">
+                            <div class="card"  style="width: 18rem;">
+                              <div class="card-body">
+                                <h4 class="card-title">Feature 5</h4>
+                                
+                                <p class="card-text"><h5><i class="bi bi-bookmark-star-fill"></i>Corporation Group Tour</h5></p>
+                                <p class="card-text"> we provude corporated Group Tours</p>
+                              </div>
+                            </div>
+                            </div>
+                     
+                      
+             </div>
+            
+        </div>
+
+
+    </div>
+    
+
+    <!--end of features-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+        integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-migrate/3.4.1/jquery-migrate.min.js"
+        integrity="sha512-KgffulL3mxrOsDicgQWA11O6q6oKeWcV00VxgfJw4TcM8XRQT8Df9EsrYxDf7tpVpfl3qcYD96BpyPvA4d1FDQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"
+        integrity="sha512-HGOnQO9+SP1V92SrtZfjqxxtLmVzqZpjFFekvzZVWoiASSQgSr4cw9Kqd2+l8Llp4Gm0G8GIFJ4ddwZilcdb8A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script>
+            $('.slider').slick({
+  dots: true,
+  infinite: true,
+  speed: 300,
+  slidesToShow: 3,
+  slidesToScroll: 1,
+  autoplay:true,
+  responsive: [
+    {
+      breakpoint: 1024,
+      settings: {
+        slidesToShow: 3,
+        slidesToScroll: 3,
+        infinite: true,
+        dots: true
+      }
+    },
+    {
+      breakpoint: 600,
+      settings: {
+        slidesToShow: 2,
+        slidesToScroll: 2
+      }
+    },
+    {
+      breakpoint: 480,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1
+      }
+    }
+    // You can unslick at a given breakpoint now by adding:
+    // settings: "unslick"
+    // instead of a settings object
+  ]
+});
+				
+
+        </script>
+
+        <!--start of footer-->
+     <div  id="footer">
+        <div class="row">
+            <div class="col-md-4">
+               <h5>Get In Touch</h5>
+               <hr width="50x">
+               <p><i class="bi-geo-alt-fill"></i>First Floor, Room No. 124, 64A, <br>Hemanta Basu Sarani, <br>Kolkata - 700 001, West Bengal, India</p>
+                <p> <i class="bi-envelope"></i> Email: domestic.linkindiatours@gmail.com, international.linkindia@gmail.com</p>
+                    <p><i class="bi-telephone"></i> +91-9836758855</p>
+            </div>
+            <div class="col-md-4">
+                <h5>Quick Link</h5>
+                <a href="#">Search</a><br>
+                <a href="#">Site Map</a><br>
+                <a href="#">Testimonials</a><br>    
+                <a href="#">Facilities</a><br>
+            </div>
+            <div class="col-md-4">
+                <h5>Tour Packages</h5>
+
+                - Kerala<br>
+                - Manali<br>
+                - Shimla<br>
+                - Ooty<br>
+                - Nainital<br>
+                - Agra<br>
+                - Udaipur<br>
+                - Malaysia<br>
+                - Singapore<br>
+                - Switzerland<br>
+                </div>
+                <div class="row">
+                    <div class="social">
+                        <div class="container text-center">
+                        <i class="bi-whatsapp" ></i>
+                        <i class="bi bi-instagram"></i>
+                        <i class="bi bi-facebook"></i>
+                        <i class="bi bi-twitter"></i>
+                        </div>
+                    </div>
+                  </div>
+            
+     </div> 
+</div>
+
+        <!--end of footer-->
+</body>
+
+</html>
