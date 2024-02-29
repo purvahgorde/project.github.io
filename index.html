@@ -30,8 +30,8 @@
 
 <body>
     <!--start of navigation bar-->
-    <nav class="navbar navbar-expand-lg  bg-custom">
-        <a class="navbar-brand" href="#"><i class="bi bi-airplane-engines"></i>Tour & Travels web</a>
+    <nav class="navbar navbar-expand-lg navbar-light bg-custom">
+        <a class="navbar-brand" href="#">Tour & Travels web</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
             aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -39,13 +39,13 @@
 
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mr-auto">
-                <li class="nav-item ">
+                <li class="nav-item  active">
                     <a class="nav-link" href="#">Home</a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Link</a>
+                <li class="nav-item active">
+                    <a class="nav-link" href="#about">About us</a>
                 </li>
-                <li class="nav-item dropdown">
+                <li class="nav-item dropdown active">
                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
                         data-toggle="dropdown">
                         Domestic Destination
@@ -58,7 +58,7 @@
                         <a class="dropdown-item" href="#">maharashtra</a>
                     </div>
                 </li>
-                <li class="nav-item dropdown">
+                <li class="nav-item dropdown active">
                     <a class="nav-link dropdown-toggle" href="#" id="navbar-dropdown"
                         data-toggle="dropdown">International Destination</a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
@@ -75,7 +75,7 @@
                     <a class="nav-link" href="#">Booking</a>
                 </li>
                 <li class="nav-item active">
-                    <a class="nav-link" href="#">Contact Us</a>
+                    <a class="nav-link" href="#footer">Contact Us</a>
                 </li>
             </ul>
             <form class="form-inline my-2 my-lg-0">
@@ -86,8 +86,11 @@
     </nav>
     <!--end of navagation bar-->
     <!--start of jumbotron-->
-    <div class="jumbotron">
-        <div class="Textdata">
+    <div class="jumbotron jumbotron-fluid">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+        
             <h1 class="display-4">Explore the World with Us</h1>
             <p class="lead">Traveling – it leaves you speechless, then turns you into a storyteller." </p>
             <hr class="my-4 bg-dark">
@@ -96,10 +99,14 @@
                 <a class="btn btn-outline-dark btn-md" href="#" role="button">Book Now</a>
             </p>
         </div>
-        <div class="imagedata">
-            <img src="images/tour1.png">
+        <div class="col-md-6" >
+            <div class="img">
+                <img src="images/tour1.png" class="img-fluid">
 
         </div>
+    </div>
+    </div>
+    </div>
     </div>
 
     <!--end of jumbotron-->
@@ -110,11 +117,8 @@
         <div class="row">
             <div class="col-md-6">
 
-                <img id="img1" src="images/nature.jpg">
-                <div class="imgd">
-                    <img id="img3" src="images/img2.png">
-                    <img id="img2" src="images/pic4.jpg">
-                </div>
+                <img id="img1" src="images/pic4.jpg" class="img-fluid">
+
 
             </div>
             <div class="col-md-6">
